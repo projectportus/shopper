@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/cartSlice";
 import { useSelector } from "react-redux";
-import { toggleWishlist } from "@/store/wishlistSlice";
+import { toggleWishlist } from "@/store/wishlistSlice.js";
 import { CircleCheck } from "lucide-react";
 import { Heart } from "lucide-react";
 import { HeartCrack } from "lucide-react";

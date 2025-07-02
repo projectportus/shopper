@@ -4,7 +4,7 @@ import Banner from "@/components/shared/sharedComponents/Banner/Banner";
 import CompanyInfo from "../CompanyInfo/CompanyInfo";
 import ClonnedFooter from "@/components/shared/sharedComponents/ClonnedFooter/ClonnedFooter";
 import SideBar from "@/components/sections/ShoppingCardSideBar/SideBar";
-import InfoWish from "./WishListInfo/InfoWish";
+import InfoWish from "./WishListInfo/InfoWish.jsx";
 const WishList = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (

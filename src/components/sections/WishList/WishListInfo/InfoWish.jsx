@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { removeFromWishlist } from "@/store/wishlistSlice";
+import { removeFromWishlist } from "@/store/wishlistSlice.js";
 import { Heart } from "lucide-react";
 const InfoWish = () => {
   const wishList = useSelector((state) => state.wishList.items);
