@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Input } from "@/components/shared/ui/input";
 import SelectComp from "./Select-comp";
-import icons from "@/assets/icons/header-icons/icons";
+import Icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
 
 export default function ProductsFilter({
   search,

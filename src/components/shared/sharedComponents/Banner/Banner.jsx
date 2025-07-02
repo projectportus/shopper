@@ -1,5 +1,5 @@
 import React from 'react'
-import Icons from '@/assets/icons/shared/ui-icons/icons'
+import Icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
 import './Banner.css'
 const Banner = ({catName, catLabel}) => {
   return (

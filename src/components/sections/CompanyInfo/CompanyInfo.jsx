@@ -1,5 +1,5 @@
 import React from "react";
-import Icons from "@/assets/icons/header-icons/icons";
+import Icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
 const CompanyInfo = () => {
   return (
     <div className="bg-[#FAF3EA] h-[500px] md:h-[270px] mt-[85px] flex flex-col items-center justify-center md:justify-center md:items-center">

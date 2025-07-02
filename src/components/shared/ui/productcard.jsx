@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Icons from "@/assets/icons/header-icons/icons";
+import Icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/cartSlice";

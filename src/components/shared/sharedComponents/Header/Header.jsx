@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/images/header/logo.svg";
 import "../Header/Header.css";
-import icons from "@/assets/icons/header-icons/icons";
+import Icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
 import { useSelector } from "react-redux";
 
 const Header = ({ setIsOpen }) => {
