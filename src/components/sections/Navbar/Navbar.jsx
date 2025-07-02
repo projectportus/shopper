@@ -1,5 +1,5 @@
 import React from "react";
-import Icons from "@/assets/icons/shared/ui-icons/icons";
+import Icons from "@/assets/icons/shared/ui-icons/Icons";
 const Navbar = () => {
   return (
     <div className="w-full h-auto md:h-[100px] flex flex-wrap items-center justify-center md:justify-start bg-[#F9F1E7] p-4 mt-[14px]">
