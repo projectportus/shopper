@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.btn{
+    margin-top: 5px;
+    background-color: #B88E2F;
+    font-family: var(--font-primary);
+    color:white;
+    font-weight: 700;
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+.title-pr {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.text-pr-c {
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+}
+p {
+  color: grey;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.card-product {
+  background-color: #f4f5f7;
+  transition: all 0.6s;
+}
+.card-product:hover {
+  box-shadow: 0px 0px 5px 5px rgb(183, 183, 183);
+}
+.card-product.new:hover {
+  box-shadow: none;
+}
+.card-product:hover .overlay {
+  opacity: 1;
+}
+.card-product .hover-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.card-product:hover .hover-content {
+  opacity: 1;
+}

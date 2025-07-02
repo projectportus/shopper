@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+nav{
+    background-color: yellowgreen;
+}
+.logoBox{
+    font-family: var(--font-primary);
+}
+.link-items{
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+.anim{
+    position:relative
+}
+.anim::after, .anim::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height:2px;
+    background-color: #B88E2F;
+    transition: width 0.3s;
+}
+.anim::after{
+    right: 0;
+}
+.anim::before{
+    left: 0;
+}
+.anim:hover::after, .anim:hover::before{
+    width: 50%;
+}

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.text-content-2{
+    font-family: var(--font-primary);
+    color: black;
+}   
+.text-browse{
+    color: black;
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
