@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/images/header/logo.svg";
 import "../Header/Header.css";
-import Icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
+import icons from '@/assets/icons/shared/ui-icons/Icons.jsx'
 import { useSelector } from "react-redux";
 
 const Header = ({ setIsOpen }) => {
@@ -39,13 +39,13 @@ const Header = ({ setIsOpen }) => {
         </div>
         <div className="iconsBox w-64 hidden md:flex justify-between items-center  ">
           <Link to="/auth/login" className="icons">
-            {icons.profile}
+            {icons.profile}f
           </Link>
           <Link to="/shop" className="icons">
-            {icons.search}
+            {icons.search}f
           </Link>
           <Link to="/wishList" className="icons relative">
-            {icons.heart}
+            {icons.heart}f
             <div className="absolute top-[-10px] left-[60%] bg-[#B88E2F] text-[.8rem] font-semibold flex justify-center items-center w-[23px] h-[23px] rounded-2xl text-white">
               {wishListCount}
             </div>
@@ -55,7 +55,7 @@ const Header = ({ setIsOpen }) => {
             href="#"
             className="icons relative"
           >
-            {icons.shoppingCart}
+            {icons.shoppingCart}f
             <div className="absolute top-[-10px] left-[60%] bg-[#B88E2F] text-[.8rem] font-semibold flex justify-center items-center w-[23px] h-[23px] rounded-2xl text-white">
               {totalQuantity}
             </div>

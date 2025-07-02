@@ -1,6 +1,5 @@
 {
   "name": "shop",
-  "homepage": "https://projectportus.github.io/shopper/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

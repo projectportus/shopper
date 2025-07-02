@@ -9,7 +9,6 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],  
-  base:"shopper",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"), 
