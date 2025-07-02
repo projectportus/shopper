@@ -12,7 +12,7 @@ import "./Carousel.css";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function Karousel() {
-  console.log("dataImages:", dataImages);
+ 
   return (
     <>
       <Swiper

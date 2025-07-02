@@ -10,24 +10,37 @@ nav{
     font-family: var(--font-primary);
     font-weight: 600;
 }
-.anim{
-    position:relative
+.anim {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
-.anim::after, .anim::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height:2px;
-    background-color: #B88E2F;
-    transition: width 0.3s;
+
+.anim::before,
+.anim::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 2px;
+  background-color: #B88E2F;
+  transition: width 0.3s ease;
 }
-.anim::after{
-    right: 0;
+
+.anim::before {
+  left: 0;
 }
-.anim::before{
-    left: 0;
+
+.anim::after {
+  right: 0;
 }
-.anim:hover::after, .anim:hover::before{
-    width: 50%;
+
+.anim::before,
+.anim::after {
+  width: 0;
+}
+
+.anim:hover::before,
+.anim:hover::after {
+  width: 50%;
 }
