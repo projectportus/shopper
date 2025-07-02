@@ -5,7 +5,7 @@ import Header from "@/components/shared/sharedComponents/Header/Header";
 import Banner from "@/components/shared/sharedComponents/Banner/Banner";
 import productsdata from "@/assets/data/pagination-data/dummydata";
 import ProductCard from "@/components/shared/ui/productcard.jsx";
-import ProductsFilter from "@/components/shared/ui/productsFilter.jsx";
+import ProductsFilter from "@/components/shared/ui/ProductsFilter.jsx";
 import Pagination from "@/components/shared/ui/Pagination";
 import CompanyInfo from "@/components/sections/CompanyInfo/CompanyInfo";
 import ClonnedFooter from "@/components/shared/sharedComponents/ClonnedFooter/ClonnedFooter";
@@ -14,7 +14,7 @@ import ph1 from '@/weblogo.svg'
 import "@/assets/styles/Shop.css";
 
 const Shop = () => {
-  
+   
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
